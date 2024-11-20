@@ -8,7 +8,7 @@ Each project has its unique structure and purpose, which are outlined below.
 
 ---
 
-## **1. React Native App: `xhaw-POE--main`**
+## **1. React Native App: `XHAW-Mobile-app.main`**
 
 ### **Overview**
 This project is a React Native application designed to provide a user-friendly interface and functionality for a specific purpose. It uses modern JavaScript and TypeScript technologies, along with React Native components.
