@@ -83,7 +83,7 @@ The goal of this project is to provide an engaging, functional, and aestheticall
 
 ---
 
-Here are some additional sections you can include in the README to enhance its professionalism and provide more details:
+Here are some additional sections:
 
 ---
 
@@ -138,8 +138,57 @@ Here are some additional sections you can include in the README to enhance its p
 ## **Acknowledgments**
 - **Wellcom**: For guidance throughout the project.
 - **Team Members**: Mfundo Sboniso Msweli, Sefako Siphosethu Mongalo, Michael Phumelela Khumalo, Owokugcina Ntuli
+
 ---
 
 ## **License**
 This project is licensed under the MIT License.  
 Feel free to modify or distribute the project under the terms of this license.
+
+---
+
+## Optimizing the Expo App and Reducing APK Size  
+
+To optimize the Expo app and reduce the APK size for uploading to GitHub, I made the following changes:  
+
+### **Development Environment and Configuration**  
+- Ensured the development environment was correctly set up for a production build.  
+- Configured the `eas.json` file with settings to target a production environment and set the build type to APK.  
+- Removed unnecessary settings like `optimizeForSize` that caused validation errors.  
+- Streamlined the `app.json` configuration by specifying only essential assets and metadata such as:  
+  - App icon  
+  - Splash screen  
+  - Adaptive icon  
+- Added a unique Android package name for proper identification.  
+
+### **Code and Dependency Optimization**  
+- Reviewed the app code and identified unnecessary libraries and assets.  
+- Removed unused dependencies to minimize the app's footprint.  
+- Compressed large image files and utilized optimized formats to reduce storage requirements.  
+- Resized images and ensured that only referenced assets were included in the build process.  
+
+### **Building the APK**  
+- Utilized the EAS CLI to build the APK in production mode.  
+- Resolved compatibility issues specific to the Windows environment.  
+- Ensured build scripts and dependencies were aligned with production requirements, avoiding the inclusion of unnecessary development libraries.  
+
+### **Verification and Results**  
+- Verified the final APK size, ensuring it was below 100MB to meet GitHub's upload requirements.  
+- Maintained app functionality and design while creating an optimized version ready for sharing and deployment.  
+
+This streamlined and efficient build process has prepared the app for deployment, ensuring a smaller footprint without compromising quality or user experience.  
+
+---
+
+## New Features Added to the Website  
+
+### **Download Our App Button**  
+- Added a **"Download Our App"** button to the footer section of the website.  
+- The button links directly to a Google Drive folder containing the APK file for the **Empowering the Nation** mobile application.  
+- This feature allows users to seamlessly transition from the website to the mobile application by downloading the APK file.  
+
+### **Social Media Integration**  
+- Added functional links to the social media icons available on every main page of the website.  
+- Each icon links directly to its respective social media platform, providing users with easy access to our official social media pages.  
+
+These enhancements aim to improve user engagement and provide convenient access to both the mobile application and social media platforms.  
